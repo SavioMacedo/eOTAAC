@@ -1,0 +1,106 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body { 
+background: url("../img/header.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.a {
+    padding: 10px;
+    margin-top: 20%;
+    background-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-inverse {
+    background-color: rgba(44,62,80,0.8);
+    border-color: #1a242f;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > p {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > p {
+    font-size: small;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > p > a {
+    color: #18bc9c;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #1a242f;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #18bc9c;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #1a242f;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: rgba(255,255,255,0.3);
+    color: inherit;
+}
+
+.navbar-text > a {
+    color: inherit;
+}
+
+.navbar-text > p {
+    font-size: small;   
+}
+
+.navbar-fixed-bottom {
+    height: 25px;
+}
+
+.thumbnail > div > p {
+    font-size: small;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(44,62,80,1);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 2px;
+  background-color: #666;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: #666;
+  border-radius: 3px;
+}

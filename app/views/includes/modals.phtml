@@ -1,0 +1,108 @@
+<!--cadastro-->
+<div class="modal fade" id="cadastro">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Junte-se a Nós!</h4>
+            </div>
+            <form action="<?php echo BASE;?>contas/cadastrar" method="post">
+                <div class="modal-body">
+                    <fieldset>
+                        <legend><h4>Criar Conta</h4></legend>
+                        <div class="form-group">
+                            <input required type="text" name="name" class="form-control" placeholder="Login" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group">
+                            <input required type="text" name="nome" class="form-control" placeholder="Apelido" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group">
+                            <input required type="email" name="email" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group">
+                            <input required type="password" name="password" class="form-control" placeholder="Senha" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="form-group">
+                            <input required type="password" name="senha2" class="form-control" placeholder="Repetir Senha" aria-describedby="basic-addon1">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <div class="col-md-7">
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Concordo com os Termos de Uso.</label>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--recuperar conta-->
+<div class="modal fade" id="recuperar">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Esqueceu alguma coisa?!</h4>
+            </div>
+            <form action="<?php echo BASE;?>contas/solicitarred" method="post">
+                <div class="modal-body">
+                    <fieldset>
+                        <div class="alert alert-warning" role="alert"><strong><h4>Recupere sua Senha!</h4></strong><legend></legend>
+                        <p>
+                            Um link de redefinição sera enviado para seu e-mail. Por favor, verifique a caixa de SPAM!.
+                        </p></div>
+                        <div class="form-group">
+                            <input type="text" name="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Recuperar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--login-->
+<div class="modal fade" id="login">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Entre para demais opções</h4>
+            </div>
+            <form action="<?php echo BASE;?>contas/logar" method="POST">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Usuario" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="Senha" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary col-md-12">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--regras-->
+<div class="modal fade" id="regras">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>

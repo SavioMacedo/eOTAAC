@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Savio Macedo">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><?php echo $view_title; ?></title>
+	<link rel="shortcut icon" href="<?php echo IMG; ?>favicon.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="<?php echo CSS; ?>bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo BOWER; ?>font-awesome/css/font-awesome.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo CSS; ?>style.css" type="text/css">
+	<script type="text/javascript" src="<?php echo JS; ?>jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="<?php echo JS; ?>bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo JS; ?>npm.js"></script>
+	<?php 
+		echo $add_css;
+		echo $add_js;
+	?>
+</head>
+<body>
+	<?php include_once "includes/navbar.phtml" ?>
+	<div class="container" style="margin: 5%;">
+		<?php include_once "includes/jumbotron.phtml" ?>
