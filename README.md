@@ -1,20 +1,22 @@
-# HXPHP Framework
+# Elementar OTAAC
 
-O HXPHP é um mini-framework PHP.
+O Elementar OTAAC vem para ser uma nova forma, mais simples, de ser um gerenciador para o seu OT, além de facilitar para os usuarios. E tudo isso feito ondemand para o tfs 1.2.
 
-### Qual é a diferença do HXPHP e os demais frameworks PHP?
+### Funções Prontas
 --------------------------------------------------------------------
 
-O HXPHP não foi desenvolvido para ser o **framework perfeito**, nem o **framework do código lindo** e sim, na verdade, ser o **framework de iniciação** dos programadores PHP. Trata-se de uma ferramenta simples que tem o objetivo nobre de apresentar o universo dos frameworks com um primeiro contato fácil e produtivo. E, para isso, em poucas horas o programador já é capaz de criar diversas soluções; fator este mais do que estimulante.
-
-Lembre-se também que antes de estudar um framework é mais do que recomendado, imprescindível, o domínio da linguagem PHP em si. Afinal, independente do framework, você deve ser um programador PHP.
+1-Criação de Contas.
+2-Recuperação de Contas(50%).
 
 --------------------------------------------------------------------
 
-> Te desejo muito sucesso e espero que você nunca pare de estudar, pois a tecnologia não para e nós, por mais difícil que seja, devemos acompanhar esta evolução.
+### Informações sobre o Elementar OTAAC
+--------------------------------------------------------------------
 
-###### Um forte abraço do seu amigo [Bruno Campos Santos](https://www.facebook.com/brunocsantos2012 "Bruno Campos Santos").
+O eOTAAC, mais facil de ser chamado rsrs, é feito em cima de um framework bastante simples, chamado hxphp, feito por brasileiros.
 
-####Link para documentação:
+--------------------------------------------------------------------
+
+####Link para documentação do FrameWork:
 ---------------------------------------------------------------------
 [https://github.com/brunosantoshx/hxphp-docs](https://github.com/brunosantoshx/hxphp-docs).
